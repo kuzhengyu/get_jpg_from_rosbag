@@ -6,7 +6,7 @@ if __name__ == '__main__':
     bag_path = "xx"
     img_dir = "xx"
 
-    bag = rosbag.Bag(bag_path) #读取Bag
+    bag = rosbag.Bag(bag_path) # 读取Bag
     info = bag.get_type_and_topic_info() # 获取bag中包含的信息
     print(info) # 看看topic名称
 
